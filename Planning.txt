@@ -1,0 +1,41 @@
+Team members
+Kgothatso - group leader
+-Tshego
+-Lola
+-Boitumelo
+-Aubrey
+-Sthembiso
+project overview
+-Objectives
+-Goals
+project phases 
+-Background
+-problem definition
+-Benefits
+-The Main objectives
+-Business success criteria
+-Requirements
+-Constraints
+-Risk
+-Tools and techniques
+-Machine learning Approach
+-Data and models
+-Deep learning
+-Time series Analysis of data
+-Code example
+-Conclution
+Communication plan
+-Weekly meeting to discuss progress and next step
+-use Github for task management and reviews
+-Communicate via whatsapp for quick updates and questions
+project task assignment
+.Kgothatso-
+.Tshego-
+.Lola-
+.Boitumelo-
+.Aubrey-
+.Sthembiso-
+Additional roles
+-Project lead-Kgothatso
+-Communication- Aubrey
+
