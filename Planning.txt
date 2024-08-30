@@ -1,13 +1,16 @@
 Team members
+
 Kgothatso - group leader
 -Tshego
 -Lola
 -Boitumelo
 -Aubrey
 -Sthembiso
+
 project overview
 -Objectives
 -Goals
+
 project phases 
 -Background
 -problem definition
@@ -25,10 +28,12 @@ project phases
 -Time series Analysis of data
 -Code example
 -Conclution
+
 Communication plan
 -Weekly meeting to discuss progress and next step
 -use Github for task management and reviews
 -Communicate via whatsapp for quick updates and questions
+
 project task assignment
 .Kgothatso-Tools and techniques , Problem definition and Benefits
 .Tshego-Deep Learning ,Background and code example
@@ -36,7 +41,11 @@ project task assignment
 .Boitumelo-conclusion and main objectives and Requirements
 .Aubrey-Time series Analysis of data,Poster amd project Overview
 .Sthembiso-Data and Models,business success criteria and Code example
+
 Additional roles
--Project lead-Kgothatso
--Communication- Aubrey
+Kgothatso
+-Project lead
+
+Aubrey
+-Communication
 
