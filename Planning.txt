@@ -5,7 +5,7 @@ Kgothatso - group leader
 -Lola
 -Boitumelo
 -Aubrey
--Sthembiso
+-Sthembile
 
 project overview
 -Objectives
@@ -40,12 +40,12 @@ project task assignment
 .Lola-machine learning Approach ,Risks and Constraits
 .Boitumelo-conclusion and main objectives and Requirements
 .Aubrey-Time series Analysis of data,Poster amd project Overview
-.Sthembiso-Data and Models,business success criteria and Code example
+.Sthembile-Data and Models,business success criteria and Code example
 
 Additional roles
 Kgothatso
 -Project lead
 
 Aubrey
--Communication
+-Communication coordinator
 
