@@ -17,6 +17,7 @@ project phases
 -Requirements
 -Constraints
 -Risk
+-poster
 -Tools and techniques
 -Machine learning Approach
 -Data and models
@@ -29,12 +30,12 @@ Communication plan
 -use Github for task management and reviews
 -Communicate via whatsapp for quick updates and questions
 project task assignment
-.Kgothatso-
-.Tshego-
-.Lola-
-.Boitumelo-
-.Aubrey-
-.Sthembiso-
+.Kgothatso-Tools and techniques , Problem definition and Benefits
+.Tshego-Deep Learning ,Background and code example
+.Lola-machine learning Approach ,Risks and Constraits
+.Boitumelo-conclution and main objectives and Requirements
+.Aubrey-Time series Analysis of data,Poster amd project Overview
+.Sthembiso-Data and Models,business success criteria and Code example
 Additional roles
 -Project lead-Kgothatso
 -Communication- Aubrey
