@@ -1,1 +1,30 @@
+Weather Forecast
 
+
+def get_weather(api_key, location_data):
+    """
+    Retrieves the current weather data for a given location.
+
+    Args:
+        api_key (str): OpenWeatherMap API key
+        location_data (dict): Dictionary containing city and country code
+
+    Returns:
+        dict: Weather data
+    """
+    city_name = location_data['city']
+    country_code = location_data['country']
+
+    url = ''
+
+    response = requests.get(url)
+
+    if response.status_code == :
+        weather_data = response.json()
+        return weather_data
+    else:
+        print(f"Failed to retrieve weather data. Status code: {response.status_code}")
+        return None
+
+
+ 
