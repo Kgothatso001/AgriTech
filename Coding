@@ -1,1 +1,22 @@
+Smart Wearther Intergrated Irrigation System - Drone path calculation setup
+
+class SWIISDrone:
+def_init_(self,starting_point):
+self.location=starting_point
+
+
+class FarmLocation:
+def_init_(self,land_size, areas):
+self.land_size = land_size
+self.areas = areas
+
+
+def generate_swiis_drone_path(self, drone):
+path = []
+for area in self.areas:
+path.append((drone.location, area))
+drone.location = area
+
+return path
+
 
