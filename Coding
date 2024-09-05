@@ -19,4 +19,86 @@ drone.location = area
 
 return path
 
+#Get user input 
+print("welcome to the Farm SWIIS-Drone Path Generator!")
+print("Please enter farm size ( in meters ):")
+
+while True: 
+try:
+North = float(input("North: "))
+break 
+expect ValueError:
+print("Invalid input. Please enter a number.")
+
+
+
+while True: 
+try:
+South = float(input("South: "))
+break 
+expect ValueError:
+print("Invalid input. Please enter a number.")
+
+
+
+while True: 
+try:
+East = float(input("East: "))
+break 
+expect ValueError:
+print("Invalid input. Please enter a number.")
+
+
+
+while True: 
+try:
+West = float(input("West: "))
+break 
+expect ValueError:
+print("Invalid input. Please enter a number.")
+
+land_size = {'North': North, 'South': South, 'East': East, 'West': West}
+
+
+print("Please enter the number of areas in the farm:")
+
+while True: 
+try:
+num_areas = int(input())
+break 
+expect ValueError:
+print("Invalid input. Please enter a whole number.")
+
+areas= []
+for i in range (num_areas):
+print(f"Enter the coodinates (x,y) for area { i +1}:")
+while True:
+try:
+x = float(input("x:"))
+break 
+expect ValueError:
+print("Invalid input. Please enter a number.")
+
+
+While True:
+try:
+y = float(input("y:"))
+break 
+expect ValueError:
+print("Invalid input. Please enter a number.")
+areas.append((x,y))
+
+#Create objects of farm and SWIIS-Drone
+Farm = FarmLocation(land_size, areas)
+drone = SWIISDrone((0, 0))
+
+#Generate the SWIIS-Drone path
+
+path = farm.generate_swiis_drone_path(drone)
+
+print("Drone path:")
+for i, point in 
+enumerate(path):
+print(f"Point {i+1}:{point}")
+
 
