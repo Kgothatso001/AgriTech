@@ -12,7 +12,7 @@ Our solution benefits the Agricultural industry by enhancing agricultural produc
 - Machine learning models for predicting weather patterns and irrigation needs.
 - Time series analysis for trend detection and forecasting.
 
-Background Information
+#Background Information
 
 In modern agriculture, optimizing resource use while maintaining crop health is crucial. Farmers face challenges in monitering vast fields, leading to inefficient use of water and resources. Traditional methods of assesing weather conditions and soil moisture and determining irrigation needs are time-consuming and often inaccurate, leading to potential crop loss or wasted resources.
 
