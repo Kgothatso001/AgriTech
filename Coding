@@ -165,8 +165,7 @@ def get_weather_forecast(api_key, lat, lon):
 
 def main():
     # API key for OpenWeatherMap
-    api_key = 'YOUR_ACTUAL_API_KEY_HERE'  # Replace with your actual API key
-
+    api_key = '69aec7bc4691535f73f99f24a8971860'
     # Get city name and country code from the user
     city_name = input("Enter city name: ")
     country_code = input("Enter country code (e.g., US, GB): ").upper()
