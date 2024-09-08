@@ -56,6 +56,10 @@ Overall, AgriTech’s Smart Weather-Integrated Irrigation System Drone delivers 
 The primary objective of integrating AI into Smart Weather-Integrated Irrigation System Drone is to revolutionise farming practices by enhancing efficiency, precision, and sustainability. By leveraging AI technologies, the goal is to transform irrigation management with a focus on optimizing water use, improving crop yields, and promoting sustainable practices. This intergration is aimed at addressing critical challenges through the following objectives:
 
 1. Optimizing Water Usage: The core aim is to efficiently manage water resources by utilizing AI to analyze weather patterns, soil quality, and crop needs. This enables precise and targeted irrigation, reducing water waste and ensuring that crops receive the optimal amount of water for their growth.
+2. Enhancing Crop Yields: By employing AI to monitor and adjust irrigation based on real-time data, the system seeks to maximize crop productivity. This approach ensures that crops are adequately nourished throughout their growth cycles, leading to healthier plants and improved harvests.
+3. Promoting Sustainable Practices: The integration of AI aims to support environmentally-friendly farming practices by minimizing water wastage and reducing the reliance on manual irrigation methods. This helps to conserve natural resources and encourages sustainable agricultural practices.
+4. 
+
 
 # Requirements
 
