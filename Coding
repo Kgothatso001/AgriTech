@@ -116,14 +116,27 @@ def get_weather(api_key, city, country):
     response = requests.get(base_url, params=params)
     if response.status_code == 200:
         data = response.json()
-        city_name = data['location']['name']
-        country_name = data['location']['country']
-        temp = data['current']['temp_c']  # Assuming temperature in Celsius, change if needed
-        weather = data['current']['condition']['text']
         
-        print(f"Weather in {city_name}, {country_name}:")
-        print(f"Temperature: {temp}°C")
-        print(f"Weather: {weather}")
+        # Use user input for city and country in the output
+        city_name = city
+        country_code = country
+        temperature_celsius = data['current']['temp_c']  # Assuming temperature in Celsius
+        weather_description = data['current']['condition']['text']
+        humidity = data['current']['humidity']
+        pressure = data['current']['pressure_mb']  # Assuming pressure in millibars (hPa)
+        wind_speed = data['current']['wind_kph']  # Assuming wind speed in kilometers per hour
+        cloud_cover = data['current']['cloud']  # Assuming cloud cover in percentage
+
+        # Print formatted weather information
+        print(f"Weather in {city_name}, {country_code}:")
+        print(f"Temperature: {temperature_celsius:.2f}°C")
+        print(f"Description: {weather_description.capitalize()}")
+        print(f"Humidity: {humidity}%")
+        print(f"Pressure: {pressure}hPa")
+        print(f"Wind speed: {wind_speed} km/h")
+        print(f"Cloud cover: {cloud_cover}%")
+        print('')
+
     else:
         print(f"Error: Unable to get weather data (Status Code: {response.status_code})")
 
@@ -134,6 +147,4 @@ def main():
     get_weather(api_key, city, country)
 
 if __name__ == "__main__":
-    main()
-
     main()
