@@ -106,28 +106,28 @@ Weather forecast
 import requests
 
 def get_weather(api_key, city, country):
-    base_url = "https://api.weatherapi.com/v1/current.json"  # Replace with the actual endpoint of your weather API
+    base_url = "https://api.weatherapi.com/v1/current.json"  
     params = {
         'key': api_key,
         'q': f'{city},{country}',
-        'lang': 'en'  # Use appropriate language parameter if required
+        'lang': 'en'  
     }
 
     response = requests.get(base_url, params=params)
     if response.status_code == 200:
         data = response.json()
         
-        # Use user input for city and country in the output
+        
         city_name = city
         country_code = country
-        temperature_celsius = data['current']['temp_c']  # Assuming temperature in Celsius
+        temperature_celsius = data['current']['temp_c']  # temperature in Celsius
         weather_description = data['current']['condition']['text']
         humidity = data['current']['humidity']
-        pressure = data['current']['pressure_mb']  # Assuming pressure in millibars (hPa)
-        wind_speed = data['current']['wind_kph']  # Assuming wind speed in kilometers per hour
-        cloud_cover = data['current']['cloud']  # Assuming cloud cover in percentage
+        pressure = data['current']['pressure_mb']  #  pressure in millibars (hPa)
+        wind_speed = data['current']['wind_kph']  #  wind speed in kilometers per hour
+        cloud_cover = data['current']['cloud']  #  cloud cover in percentage
 
-        # Print formatted weather information
+        
         print(f"Weather in {city_name}, {country_code}:")
         print(f"Temperature: {temperature_celsius:.2f}°C")
         print(f"Description: {weather_description.capitalize()}")
@@ -141,7 +141,7 @@ def get_weather(api_key, city, country):
         print(f"Error: Unable to get weather data (Status Code: {response.status_code})")
 
 def main():
-    api_key = "3c54c4adf7164faebc8181240240809"  # Your API Key
+    api_key = "3c54c4adf7164faebc8181240240809"  
     city = input("Enter city: ")
     country = input("Enter country code (e.g., US, GB): ")
     get_weather(api_key, city, country)
