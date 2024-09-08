@@ -36,9 +36,9 @@ Integrating drone technology with AI in AgriTech’s Smart Weather-Integrated Ir
 
 - *Increased Efficiency:* Automating irrigation processes through drones and AI reduces the need for manual labor and improves operational efficiency. This results in quicker and more accurate irrigation, saving time and resources.
 
-- *Cost Savings:* By optimizing water distribution and reducing the need for manual irrigation, farmers can lower their operational costs. The efficiency gains from automated systems also contribute to significant cost reductions.
+- *Cost Savings:* Farmers can lower their operational costs by optimizing water distribution and reducing the need for manual irrigation. The efficiency gains from automated systems also contribute to significant cost reductions.
 
-- *Improved Crop Management:* High-resolution cameras on drones capture detailed images to detect crop issues such as pest infestations or nutrient deficiencies early. Timely interventions can enhance crop health and quality.
+- *Improved Crop Management:* High-resolution drone cameras capture detailed images to detect crop issues such as pest infestations or nutrient deficiencies early. Timely interventions can enhance crop health and quality.
 
 - *Environmental Sustainability:* The system promotes environmentally friendly practices by minimizing water wastage and reducing the overall environmental footprint of traditional irrigation methods. This contributes to better land and water management.
 
