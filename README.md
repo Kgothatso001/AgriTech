@@ -2,15 +2,15 @@
 AgriTech combines technology and agriculture to boost efficiency. The camera drone in The Smart Weather-Integrated Irrigation System monitors weather and soil in real-time. This data helps optimize irrigation, conserve water, and improve crop yields.
 # Project overview
 ## Agritech AI Solution
-This project aims to develop an AI-powered drone solution that helps with weather detection and irrigation management for agricultural fields. By using machine learning models, the system will analyze time series data and provide actionable insights to improve crop yields.
+In agriculture there is a huge problem of inefficient water management, particularly for small to medium-scale farmers. Traditional methods of irrigation either overwater or underwater crops, wasting water and reducing yields. 
 
-Our solution benefits the Agricultural industry by enhancing agricultural productivity, reducing water waste, and improving overall efficiency in resource management.
+This project aims to create an AI system that uses data on weather, soil moisture, and crop growth to optimize irrigation scheduling.
 
 ## Key Features
-- Weather detection using real-time data analysis.
-- Automated irrigation system based on AI recommendations.
-- Machine learning models for predicting weather patterns and irrigation needs.
-- Time series analysis for trend detection and forecasting.
+- Use weather APIs (like OpenWeather or NOAA) to collect data like rainfall, temperature, humidity, and wind.
+- Collect data from soil sensors measuring moisture levels, pH, and nutrients.
+- Integrate drone imaging for growth patterns or manually input crop growth stages.
+- Integrate alerts (SMS or app notifications) for farmers, with irrigation suggestions based on predictions.
 
 # Background of AI solution
 
