@@ -105,79 +105,35 @@ Weather forecast
 
 import requests
 
-def get_coordinates(api_key, city_name, country_code):
-    # Construct the API URL for getting coordinates
-    url = f'https://api.openweathermap.org/data/2.5/weather?q={city_name},{country_code}&appid={api_key}'
+def get_weather(api_key, city, country):
+    base_url = "https://api.weatherapi.com/v1/current.json"  # Replace with the actual endpoint of your weather API
+    params = {
+        'key': api_key,
+        'q': f'{city},{country}',
+        'lang': 'en'  # Use appropriate language parameter if required
+    }
 
-    # Make the request to the OpenWeatherMap API
-    response = requests.get(url)
-    
-    # Check if the request was successful
+    response = requests.get(base_url, params=params)
     if response.status_code == 200:
-        # Parse the JSON data
-        weather_data = response.json()
-        lat = weather_data['coord']['lat']
-        lon = weather_data['coord']['lon']
-        return lat, lon
-    else:
-        # Handle errors
-        print(f"Failed to retrieve coordinates. Status code: {response.status_code}")
-        if response.status_code == 401:
-            print("Error: Unauthorized. Check your API key.")
-        return None, None
-
-def get_weather_forecast(api_key, lat, lon):
-    # Construct the API URL for getting weather forecast
-    url = f'https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude=minutely,hourly,daily&appid={api_key}'
-    
-    # Make the request to the OpenWeatherMap API
-    response = requests.get(url)
-    
-    # Check if the request was successful
-    if response.status_code == 200:
-        # Parse the JSON data
-        weather_data = response.json()
+        data = response.json()
+        city_name = data['location']['name']
+        country_name = data['location']['country']
+        temp = data['current']['temp_c']  # Assuming temperature in Celsius, change if needed
+        weather = data['current']['condition']['text']
         
-        # Extract relevant data
-        current_weather = weather_data['current']
-        temperature_kelvin = current_weather['temp']
-        temperature_celsius = temperature_kelvin - 273.15  # Convert to Celsius
-        weather_description = current_weather['weather'][0]['description']
-        pressure = current_weather['pressure']
-        humidity = current_weather['humidity']
-        wind_speed = current_weather['wind_speed']
-        cloud_cover = current_weather['clouds']
-        
-        # Print the weather information
-        print(f"Weather at {lat}, {lon}:")
-        print(f"Temperature: {temperature_celsius:.2f}°C")
-        print(f"Description: {weather_description.capitalize()}")
-        print(f"Humidity: {humidity}%")
-        print(f"Pressure: {pressure}hPa")
-        print(f"Wind Speed: {wind_speed}m/s")
-        print(f"Cloud Cover: {cloud_cover}%")
-        print('')
+        print(f"Weather in {city_name}, {country_name}:")
+        print(f"Temperature: {temp}°C")
+        print(f"Weather: {weather}")
     else:
-        # Handle errors
-        print(f"Failed to retrieve weather data. Status code: {response.status_code}")
-        if response.status_code == 401:
-            print("Error: Unauthorized. Check your API key.")
+        print(f"Error: Unable to get weather data (Status Code: {response.status_code})")
 
 def main():
-    # API key for OpenWeatherMap
-    api_key = '69aec7bc4691535f73f99f24a8971860'
-    # Get city name and country code from the user
-    city_name = input("Enter city name: ")
-    country_code = input("Enter country code (e.g., US, GB): ").upper()
-
-    # Get coordinates for the city
-    lat, lon = get_coordinates(api_key, city_name, country_code)
-    
-    if lat is not None and lon is not None:
-        # Retrieve weather forecast
-        get_weather_forecast(api_key, lat, lon)
-    else:
-        print("Unable to get weather data. Please check the city name and country code.")
+    api_key = "3c54c4adf7164faebc8181240240809"  # Your API Key
+    city = input("Enter city: ")
+    country = input("Enter country code (e.g., US, GB): ")
+    get_weather(api_key, city, country)
 
 if __name__ == "__main__":
+    main()
+
     main()
