@@ -105,80 +105,15 @@ Weather forecast
 
 import requests
 
-def get_coordinates(api_key, city_name, country_code):
-    # Construct the API URL for getting coordinates
-    url = f'https://api.openweathermap.org/data/2.5/weather?q={city_name},{country_code}&appid={api_key}'
-
-    # Make the request to the OpenWeatherMap API
-    response = requests.get(url)
-    
-    # Check if the request was successful
-    if response.status_code == 200:
-        # Parse the JSON data
-        weather_data = response.json()
-        lat = weather_data['coord']['lat']
-        lon = weather_data['coord']['lon']
-        return lat, lon
-    else:
-        # Handle errors
-        print(f"Failed to retrieve coordinates. Status code: {response.status_code}")
-        if response.status_code == 401:
-            print("Error: Unauthorized. Check your API key.")
-        return None, None
-
-def get_weather_forecast(api_key, lat, lon):
-    # Construct the API URL for getting weather forecast
-    url = f'https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude=minutely,hourly,daily&appid={api_key}'
-    
-    # Make the request to the OpenWeatherMap API
-    response = requests.get(url)
-    
-    # Check if the request was successful
-    if response.status_code == 200:
-        # Parse the JSON data
-        weather_data = response.json()
-        
-        # Extract relevant data
-        current_weather = weather_data['current']
-        temperature_kelvin = current_weather['temp']
-        temperature_celsius = temperature_kelvin - 273.15  # Convert to Celsius
-        weather_description = current_weather['weather'][0]['description']
-        pressure = current_weather['pressure']
-        humidity = current_weather['humidity']
-        wind_speed = current_weather['wind_speed']
-        cloud_cover = current_weather['clouds']
-        
-        # Print the weather information
-        print(f"Weather at {lat}, {lon}:")
         print(f"Temperature: {temperature_celsius:.2f}°C")
         print(f"Description: {weather_description.capitalize()}")
         print(f"Humidity: {humidity}%")
         print(f"Pressure: {pressure}hPa")
-        print(f"Wind Speed: {wind_speed}m/s")
-        print(f"Cloud Cover: {cloud_cover}%")
+        print(f"Wind speed: {wind_speed} km/h")
+        print(f"Cloud cover: {cloud_cover}%")
         print('')
     else:
-        # Handle errors
-        print(f"Failed to retrieve weather data. Status code: {response.status_code}")
-        if response.status_code == 401:
-            print("Error: Unauthorized. Check your API key.")
 
-def main():
-    # API key for OpenWeatherMap
-    api_key = 'YOUR_ACTUAL_API_KEY_HERE'  # Replace with your actual API key
-
-    # Get city name and country code from the user
-    city_name = input("Enter city name: ")
-    country_code = input("Enter country code (e.g., US, GB): ").upper()
-
-    # Get coordinates for the city
-    lat, lon = get_coordinates(api_key, city_name, country_code)
-    
-    if lat is not None and lon is not None:
-        # Retrieve weather forecast
-        get_weather_forecast(api_key, lat, lon)
-    else:
-        print("Unable to get weather data. Please check the city name and country code.")
 
 if __name__ == "__main__":
     main()

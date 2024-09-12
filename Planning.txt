@@ -27,20 +27,20 @@ project phases
 -Deep learning
 -Time series Analysis of data
 -Code example
--Conclution
+-Conclusion
 
 Communication plan
 -Weekly meeting to discuss progress and next step
 -use Github for task management and reviews
--Communicate via whatsapp for quick updates and questions
+-Communicate via WhatsApp for quick updates and questions
 
 project task assignment
-.Kgothatso-Tools and techniques , Problem definition and Benefits
-.Tshego-Deep Learning ,Background and code example
-.Lola-machine learning Approach ,Risks and Constraits
+.Kgothatso-Tools and techniques, Problem Definition and Benefits
+.Tshego-Deep Learning, Background and code example
+.Lola-machine learning Approach, Risks and Constraints
 .Boitumelo-conclusion and main objectives and Requirements
-.Aubrey-Time series Analysis of data,Poster amd project Overview
-.Sthembile-Data and Models,business success criteria and Code example
+.Aubrey-Time series Analysis of data, Poster, and Project Overview
+.Sthembile-Data and Models, business success criteria, and Code example
 
 Additional roles
 Kgothatso
