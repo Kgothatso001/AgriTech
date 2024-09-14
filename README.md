@@ -90,7 +90,7 @@ The primary objective of integrating AI into Smart Weather-Integrated Irrigation
 - Maintenance: Establish a maintenance schedule for both the drones and the AI algorithms to ensure ongoing functionality and accuracy of image-based analysis.
 - Scalability: Plan for potential expansion of the system to cover larger agricultural areas or meet increasing demands for irrigation.
 
-#Tools and Techniques for Smart Weather-Integrated Irrigation System Drone
+# Tools and Techniques for Smart Weather-Integrated Irrigation System Drone
 
 *Tools:*
 
