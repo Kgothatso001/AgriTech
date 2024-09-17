@@ -144,7 +144,7 @@ The primary objective of integrating AI into Smart Weather-Integrated Irrigation
 8. *User-Centered Design:*
    - *Don Norman's "The Design of Everyday Things":* Insights into designing user-friendly interfaces and systems, ensuring that the drone’s recommendations are practical and actionable for farmers.
   
-# Deep Learning Approaches for Smart Weather-Integrated Irrigation System Drone
+#  Deep Learning Approaches for Smart Weather-Integrated Irrigation System Drone
 
 Creating an advanced irrigation system using deep learning can significantly improve the efficiency and accuracy of irrigation management. By leveraging deep learning, the SWIIS can make data-driven decisions to optimize water usage and enhance crop health.
 
