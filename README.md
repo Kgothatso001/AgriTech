@@ -15,16 +15,19 @@ This project aims to create an AI system that uses data on weather, soil moistur
 # Business Objectives
 
 Our primary objective is to develop an AI solution that enables farmers to optimize water usage and boost crop yields by utilizing real-time data from weather patterns, soil moisture sensors, and crop growth analysis. This solution will help conserve water, improve agricultural efficiency, and promote sustainable farming practices.
-
 The following components are essential to our project's success:
-
 Data Collection Process: Farmers are required to install soil moisture sensors and input crop details to enable accurate irrigation predictions.
-
 IoT Monitoring: Sensors are deployed to monitor soil moisture levels, weather conditions, and crop growth to optimize irrigation schedules.
-
-Funding: Successful implementation of the project will require sponsorships from agricultural organizations, government grants, and local farming communities.
-
+Funding: The project's successful implementation will require sponsorships from agricultural organizations, government grants, and local farming communities.
 AI-Powered Irrigation Management: The AI solution will monitor real-time data to recommend precise irrigation timing and quantity, reducing water wastage and enhancing crop productivity.
+
+# Business Success Criteria
+
+This project requires substantial funding to achieve its objectives.
+Water Efficiency: Achieve a reduction in water usage by 30%.
+Improved Yield: Increase crop yield by 20% within the first harvest cycle.
+Farmer Adoption: Enrol at least 50 farmers within the first year of deployment.
+Cost Efficiency: Decrease overall farming costs through improved irrigation scheduling.
 
 # Background of AI solution
 
