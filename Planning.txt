@@ -38,9 +38,9 @@ project task assignment
 .Kgothatso-Tools and techniques, Problem Definition and Benefits
 .Tshego-Deep Learning, Background and code example
 .Lola-machine learning Approach, Risks and Constraints
-.Boitumelo-conclusion and main objectives and Requirements
-.Aubrey-Time series Analysis of data, Poster, and Project Overview
-.Sthembile-Data and Models, business success criteria, and Code example
+.Boitumelo- Business Objective, Requirements, and conclusion.
+.Aubrey- Project Overview, Data, and Poster.
+.Sthembile-Models and Time series Analysis of data, business success criteria, and Code example
 
 Additional roles
 Kgothatso
