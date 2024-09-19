@@ -96,12 +96,12 @@ Overall, AgriTech’s Smart Weather-Integrated Irrigation System Drone delivers 
 - Maintenance: Establish a maintenance schedule for both the drones and the AI algorithms to ensure ongoing functionality and accuracy of image-based analysis.
 - Scalability: Plan for potential expansion of the system to cover larger agricultural areas or meet increasing demands for irrigation.
 
-###Constraints for the AI-Powered Drone Solution###
+# Constraints for the AI-Powered Drone Solution
 
 
- * Constraints for the AI-Powered Drone Solution:   *
+*Constraints for the AI-Powered Drone Solution:*
    
-*1.Technical Constraints: *
+  *1.Technical Constraints:*
 
 Battery Life: Limited battery capacity may restrict the drone's operational time and the area it can cover in a single flight, necessitating frequent recharges or multiple drones.
 Data Processing Speed: Real-time analysis of large datasets may be challenging, particularly in areas with limited processing power or slow data transmission speeds.
