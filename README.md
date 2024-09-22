@@ -21,13 +21,12 @@ IoT Monitoring: Sensors are deployed to monitor soil moisture levels, weather co
 Funding: The project's successful implementation will require sponsorships from agricultural organizations, government grants, and local farming communities.
 AI-Powered Irrigation Management: The AI solution will monitor real-time data to recommend precise irrigation timing and quantity, reducing water wastage and enhancing crop productivity.
 
-### Business Success Criteria
+### Business Success Criter
 
-1.	Safety
 -	Collision Avoidance: The drone needs to have advanced sensors, including high-resolution cameras and radar, to detect and avoid objects such as trees, buildings, and other drones. Improved recognition of obstacles and accident prevention should be key benefits of AI algorithms.
 -	Emergency Features: The drone should be equipped with inbuilt safety features like emergency landing systems or parachutes for critical situations to avoid accidents.
 -	Reduce risk: so that the drone never causes harm to humans, animals, or property. Facilitate farm drone operation while considering the agricultural activities and manipulation of environmental flows.
-  	
+
 2.	Accuracy
 -	Precision Monitoring: The drone needs to be segmented into various land fields and also provide accurate data on plant health and weather conditions. There is that precision and recommendations required in irrigation need a high level of imaging capability and the right amount of data analysis.
 -	Limiting knowledge of the drone system Adaptability: Making sure that the drone can adjust for external changes such as wind and rain, maintaining consistent performance.
