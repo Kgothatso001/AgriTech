@@ -24,35 +24,35 @@ AI-Powered Irrigation Management: The AI solution will monitor real-time data to
 ### Business Success Criteria
 
 1.	Safety
-•	Collision Avoidance: The drone needs to have advanced sensors, including high-resolution cameras and radar, to detect and avoid objects such as trees, buildings, and other drones. Improved recognition of obstacles and accident prevention should be key benefits of AI algorithms.
-•	Emergency Features: The drone should be equipped with inbuilt safety features like emergency landing systems or parachutes for critical situations to avoid accidents.
-•	Reduce risk: so that the drone never causes harm to humans, animals, or property. Facilitate farm drone operation while considering the agricultural activities and manipulation of environmental flows.
-
+   •	Collision Avoidance: The drone needs to have advanced sensors, including high-resolution cameras and radar, to detect and avoid objects such as trees, buildings, and other drones. Improved recognition of obstacles and accident prevention should be key benefits of AI algorithms.
+  	•	Emergency Features: The drone should be equipped with inbuilt safety features like emergency landing systems or parachutes for critical situations to avoid accidents.
+  	•	Reduce risk: so that the drone never causes harm to humans, animals, or property. Facilitate farm drone operation while considering the agricultural activities and manipulation of environmental flows.
+  	
 2.	Accuracy
-•	Precision Monitoring: The drone needs to be segmented into various land fields and also provide accurate data on plant health and weather conditions. There is that precision and recommendations required in irrigation need a high level of imaging capability and the right amount of data analysis.
-•	Limiting knowledge of the drone system Adaptability: Making sure that the drone can adjust for external changes such as wind and rain, maintaining consistent performance.
-•	Real-time Data Transmission: Continued real-time communication between the drone and its monitoring system allows for updates to be made in an urgent manner all while the data is recorded live.
-
+   •	Precision Monitoring: The drone needs to be segmented into various land fields and also provide accurate data on plant health and weather conditions. There is that precision and recommendations required in irrigation need a high level of imaging capability and the right amount of data analysis.
+  	•	Limiting knowledge of the drone system Adaptability: Making sure that the drone can adjust for external changes such as wind and rain, maintaining consistent performance.
+  	•	Real-time Data Transmission: Continued real-time communication between the drone and its monitoring system allows for updates to be made in an urgent manner all while the data is recorded live.
+  	
 3.	Reliability
-Having said that there are a few critical requirements for developing production-ready drone delivery UAVs:
-•	Operational Reliability: The drone has to work reliably in a variety of different environments such as adverse weather conditions and challenging air spaces. That is made out of lasting components and highly solid build quality
-•	Data Integrity: Data collected and transmitted by the drone should be trustworthy and accurate continuously throughout its life.
-•	Flight Endurance: The drone ought to be able to face up to environmental stress i.e. turbulence and gusts of wind for a long period at specialist efficiency without having to refuel continuously.
+   Having said that there are a few critical requirements for developing production-ready drone delivery UAVs:
+  	•	Operational Reliability: The drone has to work reliably in a variety of different environments such as adverse weather conditions and challenging air spaces. That is made out of lasting components and highly solid build quality
+  	•	Data Integrity: Data collected and transmitted by the drone should be trustworthy and accurate continuously throughout its life.
+  	•	Flight Endurance: The drone ought to be able to face up to environmental stress i.e. turbulence and gusts of wind for a long period at specialist efficiency without having to refuel continuously.
 
 4.	Efficiency
-•	Utilization of Energy: You will need to optimize the drone in terms of weight, drag, and use of renewable energies.
-•	Battery life: The drone should support long-range flight and provide enough juice to complete the assigned task without requiring constant charging.
-•	Weather Compatibility: It should be able to work effectively in different weather situations while consuming enough power of the drones so that can deliver the best performance.
+   •	Utilization of Energy: You will need to optimize the drone in terms of weight, drag, and use of renewable energies.
+  	•	Battery life: The drone should support long-range flight and provide enough juice to complete the assigned task without requiring constant charging.
+  	•	Weather Compatibility: It should be able to work effectively in different weather situations while consuming enough power of the drones so that can deliver the best performance.
 
 5.	Public Acceptance
-•	Community Comfort: All enforced drones must be accepted by the agricultural community and by wider society. It requires showing the value it brings and working through concerns around its use.
-•	Safe Operation: Operating the drone safely and within regulatory and safety guidelines to ensure public confidence.
-•	Insurance: Ensure the drone and its operations are adequately insured, to cover liabilities and accidents.
-
+   •	Community Comfort: All enforced drones must be accepted by the agricultural community and by wider society. It requires showing the value it brings and working through concerns around its use.
+  	•	Safe Operation: Operating the drone safely and within regulatory and safety guidelines to ensure public confidence.
+  	•	Insurance: Ensure the drone and its operations are adequately insured, to cover liabilities and accidents.
+  	
 6.	Cost-Effectiveness
-•	Operational Costs: The drone must be cost-effective to both maintain and operate. It must also include affordable acquisition costs and operating costs.
-•	Take-Goff & Landing: The drone should be as easy to manufacture and repair as possible with the idea of being constructed from off-the-shelf components where possible, this would help reduce production costs at scale and maintenance.
-Component utilization: The components must be cost-effective and easily available to manage the overall expenses of the project
+   •	Operational Costs: The drone must be cost-effective to both maintain and operate. It must also include affordable acquisition costs and operating costs.
+  	•	Take-Goff & Landing: The drone should be as easy to manufacture and repair as possible with the idea of being constructed from off-the-shelf components where possible, this would help reduce production costs at scale and maintenance.
+  	•Component utilization: The components must be cost-effective and easily available to manage the overall expenses of the project
 
 
 # Background of AI solution
