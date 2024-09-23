@@ -200,54 +200,54 @@ Training and Skill Gaps: Insufficient training or a lack of skilled personnel to
 *Tools:*
 
 1. *Simulators and Emulators:*
-   - AirSim: A high-fidelity simulator developed by Microsoft for testing AI algorithms and drone performance in diverse environments, including agricultural settings.
+   AirSim: A high-fidelity simulator developed by Microsoft for testing AI algorithms and drone performance in diverse environments, including agricultural settings.
 
 2. *Programming Languages:*
-   - Python: Used for AI development due to its extensive libraries and ease of use for implementing machine learning algorithms and data processing.
+   Python: Used for AI development due to its extensive libraries and ease of use for implementing machine learning algorithms and data processing.
 
 3. *Development Frameworks and Libraries:*
-   - *TensorFlow:* An open-source machine learning framework used for building and training AI models to analyze camera images and provide irrigation recommendations.
-   - *PyTorch:* A deep learning framework suitable for developing complex AI models for real-time image analysis and decision-making.
-   - *OpenCV:* A computer vision library for image and video analysis, essential for interpreting camera data from the drone.
+   *TensorFlow:* An open-source machine learning framework used for building and training AI models to analyze camera images and provide irrigation recommendations.
+    *PyTorch:* A deep learning framework suitable for developing complex AI models for real-time image analysis and decision-making.
+    *OpenCV:* A computer vision library for image and video analysis, essential for interpreting camera data from the drone.
 
 4. *Drone Platforms:*
-   - *DJI Developer Tools:* APIs and SDKs for integrating custom applications with DJI drones, enabling interaction with the drone’s hardware and software.
+    *DJI Developer Tools:* APIs and SDKs for integrating custom applications with DJI drones, enabling interaction with the drone’s hardware and software.
 
 5. *Integrated Development Environments (IDEs):*
-   - *Visual Studio Code:* A versatile code editor with extensions for Python development, useful for writing and debugging code.
-   - *Jupyter Notebook:* An interactive environment for experimenting with code, visualizing data, and documenting the development process.
+    *Visual Studio Code:* A versatile code editor with extensions for Python development, useful for writing and debugging code.
+    *Jupyter Notebook:* An interactive environment for experimenting with code, visualizing data, and documenting the development process.
 
 6. *Geospatial Tools:*
-   - *QGIS:* A geographic information system for analyzing geospatial data related to soil quality and weather conditions.
+    *QGIS:* A geographic information system for analyzing geospatial data related to soil quality and weather conditions.
 
 7. *Data Collection and Analysis Tools:*
-   - *Adafruit Sensors:* For integrating various sensors with the drone, although the focus is on camera data, these tools can complement other data collection needs.
+    *Adafruit Sensors:* For integrating various sensors with the drone, although the focus is on camera data, these tools can complement other data collection needs.
 
 *Techniques:*
 
 1. *Machine Learning and Deep Learning:*
-   - *Coursera Machine Learning Course:* A foundational course by Andrew Ng to understand machine learning principles and techniques applicable to analyzing agricultural data.
+    *Coursera Machine Learning Course:* A foundational course by Andrew Ng to understand machine learning principles and techniques applicable to analyzing agricultural data.
 
 2. *Computer Vision:*
-   - *OpenCV Tutorials:* Official tutorials on using OpenCV for computer vision tasks, crucial for processing and interpreting camera images of crops and weather conditions.
+    *OpenCV Tutorials:* Official tutorials on using OpenCV for computer vision tasks, crucial for processing and interpreting camera images of crops and weather conditions.
 
 3. *Path Planning and Navigation Algorithms:*
-   - *Robotics: Computational Motion Planning:* A textbook for understanding algorithms related to drone navigation and obstacle avoidance in agricultural fields.
+   *Robotics: Computational Motion Planning:* A textbook for understanding algorithms related to drone navigation and obstacle avoidance in agricultural fields.
 
 4. *Sensor Fusion:*
-   - *Sensor Fusion and Non-linear Filtering for Automotive Applications:* Techniques for combining data from different sensors to enhance the drone’s decision-making capabilities.
+   *Sensor Fusion and Non-linear Filtering for Automotive Applications:* Techniques for combining data from different sensors to enhance the drone’s decision-making capabilities.
 
 5. *Real-time Data Processing:*
-   - *Real-Time Analytics:* A guide on processing data in real-time to provide timely recommendations for irrigation based on current weather and soil conditions.
+   *Real-Time Analytics:* A guide on processing data in real-time to provide timely recommendations for irrigation based on current weather and soil conditions.
 
 6. *Testing and Validation Strategies:*
-   - *Software Testing Fundamentals:* Principles and methods for testing software components of the drone system to ensure reliable performance.
+    *Software Testing Fundamentals:* Principles and methods for testing software components of the drone system to ensure reliable performance.
 
 7. *Risk Assessment and Mitigation:*
-   - *Risk Management and Assessment:* A guide to identifying and addressing potential risks in the project, including technical and operational challenges.
+    *Risk Management and Assessment:* A guide to identifying and addressing potential risks in the project, including technical and operational challenges.
 
 8. *User-Centered Design:*
-   - *Don Norman's "The Design of Everyday Things":* Insights into designing user-friendly interfaces and systems, ensuring that the drone’s recommendations are practical and actionable for farmers.
+    *Don Norman's "The Design of Everyday Things":* Insights into designing user-friendly interfaces and systems, ensuring that the drone’s recommendations are practical and actionable for farmers.
 
 # Data
 
