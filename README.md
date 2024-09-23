@@ -200,10 +200,10 @@ Training and Skill Gaps: Insufficient training or a lack of skilled personnel to
 *Tools:*
 
 1. *Simulators and Emulators:*
-   - *AirSim:* A high-fidelity simulator developed by Microsoft for testing AI algorithms and drone performance in diverse environments, including agricultural settings.
+   - AirSim: A high-fidelity simulator developed by Microsoft for testing AI algorithms and drone performance in diverse environments, including agricultural settings.
 
 2. *Programming Languages:*
-   - *Python:* Used for AI development due to its extensive libraries and ease of use for implementing machine learning algorithms and data processing.
+   - Python: Used for AI development due to its extensive libraries and ease of use for implementing machine learning algorithms and data processing.
 
 3. *Development Frameworks and Libraries:*
    - *TensorFlow:* An open-source machine learning framework used for building and training AI models to analyze camera images and provide irrigation recommendations.
