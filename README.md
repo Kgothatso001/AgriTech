@@ -1,5 +1,5 @@
 # AgriTech
-AgriTech combines technology and agriculture to boost efficiency. The camera drone in The Smart Weather-Integrated Irrigation System monitors weather and soil in real-time. This data helps optimize irrigation, conserve water, and improve crop yields.
+AgriTech combines technology and agriculture to boost efficiency. The camera drone in The Smart Weather-Integrated Irrigation System monitors weather and soil in real time. This data helps optimize irrigation, conserve water, and improve crop yields.
 # Project overview
 ## Agritech AI Solution
 In agriculture, there is a huge problem of inefficient water management, particularly for small to medium-scale farmers. Traditional methods of irrigation either overwater or underwater crops, waste water and reduce yields. 
